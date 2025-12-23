@@ -1,0 +1,84 @@
+@font-face {
+    font-family: my font;
+    src: url(./sf-pro-display_bold.woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: my font;
+}
+html,body{
+
+    height: 100%;
+    width: 100%;
+}
+
+    
+
+#nav{
+    height: 60px;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+h4{
+    color: white;
+    text-transform: capitalize;
+    
+}
+i{
+    color:white;
+}
+#center{
+    height: 70%;
+    width: 100%;
+    padding: 50px;
+        background-image:url( https://www.apple.com/v/home/ck/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_mediumtall_2x.jpg);
+background-size: cover;
+background-position: center;
+
+    text-align: center;
+    justify-content: center;
+    color: black;
+    background-color: black;
+}
+#center h1{
+    font-size: 50px;
+    font-weight: 600;
+
+}
+#center h5{
+    font-size: 40px;
+    padding: 20px;
+    font-weight: 300;
+}
+#links{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 30px;
+padding: 20px;
+
+
+}
+#links button{
+
+  background-color:royalblue;
+  padding: 15px 20px;  
+border-radius: 50px;
+border: none;
+color: white;
+font-weight: 500;
+font-size: 15px;
+
+
+}
+
+
+
+
