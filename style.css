@@ -3,21 +3,23 @@
     src: url(./sf-pro-display_bold.woff2);
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: my font;
 }
-html,body{
+
+html,
+body {
 
     height: 100%;
     width: 100%;
 }
 
-    
 
-#nav{
+
+#nav {
     height: 60px;
     width: 100%;
     background-color: grey;
@@ -26,56 +28,180 @@ html,body{
     justify-content: center;
     gap: 40px;
 }
-h4{
+
+h4 {
     color: white;
     text-transform: capitalize;
-    
+
 }
-i{
-    color:white;
+
+i {
+    color: white;
 }
-#center{
-    height: 70%;
+
+#center {
+
+    height: 100%;
     width: 100%;
     padding: 50px;
-        background-image:url( https://www.apple.com/v/home/ck/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_mediumtall_2x.jpg);
-background-size: cover;
-background-position: center;
+    background-image: url(https://www.apple.com/v/home/ck/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_mediumtall_2x.jpg);
+    background-size: cover;
+    background-position: center;
 
     text-align: center;
     justify-content: center;
     color: black;
     background-color: black;
 }
-#center h1{
+
+#center h1 {
     font-size: 50px;
     font-weight: 600;
 
 }
-#center h5{
+
+#center h5 {
     font-size: 40px;
     padding: 20px;
     font-weight: 300;
 }
-#links{
-display: flex;
-align-items: center;
-justify-content: center;
-gap: 30px;
-padding: 20px;
+
+#links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
 
 
 }
-#links button{
 
-  background-color:royalblue;
-  padding: 15px 20px;  
-border-radius: 50px;
-border: none;
-color: white;
-font-weight: 500;
-font-size: 15px;
+#links button {
 
+    background-color: royalblue;
+    padding: 15px 20px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+
+
+}
+
+#box2 {
+    margin-top: 20px;
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    background-image: url(https://www.apple.com/v/home/ck/images/heroes/ipad-air/hero_ipad_air_avail__c34ycq52exg2_mediumtall.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    justify-content: center;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+#box2 h5 {
+    padding: 20px;
+
+    font-size: 30px;
+    font-weight: 100;
+}
+
+#box2 button {
+    padding: 15px 20px;
+    background-color: royalblue;
+    margin-left: 30px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 10px;
+}
+#box3{
+    height: 100%;
+
+    width: 50%;
+    position: absolute;
+    right: 0%;
+  background-image: url(https://www.apple.com/v/home/ck/images/promos/airpods-pro-3/promo_airpodspro_3__f6xmza7bglei_medium.jpg);
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    color: black;
+    margin-top: 20px;
+   
+}
+#box3 h1{
+
+    padding: 20px;
+    font-size: 50px;
+    font-weight: 600;
+}
+#box3 h5{
+
+     padding: 10px;
+
+    font-size: 20px;
+    font-weight: 100;
+}
+#box3 button{
+
+    padding: 15px 20px;
+    background-color: royalblue;
+    margin-left: 30px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 10px;
+}
+#box4{
+    height: 100%;
+    width: 40%;
+    padding-left: 40px;
+   
+  background-image: url(https://www.apple.com/v/home/ck/images/promos/apple-watch-series-11/promo_apple_watch_series_11__b63hxviqvonm_medium.jpg);
+    align-items: flex-start;
+    background-size: cover;
+    background-position:center;
+    background-size: cover;
+    background-position: center;
+    justify-content:center ;
+    color: black;
+    margin-top: 20px;
+    margin-left: 50px;
+   
+
+}
+#box4 h1{
+    padding: 40px;
+    font-size: 50px;
+    font-weight: 600;
+    
+}
+#box4 h5{
+ padding-left:  40px;
+ margin-top: 5px;
+ margin-bottom: 20px;
+
+    font-size: 20px;
+    font-weight: 100;
+
+}
+#box4 button{
+     padding: 15px 20px;
+    background-color: royalblue;
+    margin-left: 30px;
+    border-radius: 50px;
+    border: none;
+    
 
 }
 
